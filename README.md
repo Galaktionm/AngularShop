@@ -1,6 +1,6 @@
 # AngularShop
 
-Typical online shopping website. Mainly focused on backend (with minimal frontend styles), trying to use different techniques and tools as much as possible. 
+Typical online shopping website. Still work in progress. Mainly focused on backend (with minimal frontend styles), trying to use different techniques and tools as much as possible. 
 
 ## Outline
 
