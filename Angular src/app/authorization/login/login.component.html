@@ -1,0 +1,13 @@
+<div class="border border-primary m-2">
+<form [formGroup]="loginForm" (ngSubmit)="sendRequest()" class="m-2">
+
+    <label for="email">Please Enter Your Email: </label>
+    <input type="text" formControlName="email" id="email"class="form-control" required>
+
+    <label for="password">Please Enter Your password: </label>
+    <input type="password" formControlName="password" id="password" class="form-control" required>
+
+    <button type="submit">Login</button>
+
+</form>
+</div>

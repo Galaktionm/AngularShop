@@ -1,0 +1,12 @@
+server:
+  port: 8113
+  
+  
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: Gaga
+    password: framework123-.
+    virtual-host: GagaDev-Vhost
+ 

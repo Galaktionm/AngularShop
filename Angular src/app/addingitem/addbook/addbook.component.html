@@ -1,0 +1,39 @@
+
+<div class="border border-2 border-success m-2">
+<form [formGroup]="bookForm" (ngSubmit)="addBook()" class="m-3">
+
+    <p>Book Details</p>
+
+    <label for="title" class="form-label">Title: </label>
+    <input type="text" formControlName="title" id="title"  class="form-control" required>
+
+    <label for="author" class="form-label">Author: </label>
+    <input type="text" formControlName="author" id="author" class="form-control" required>
+
+    <label for="genre" class="form-label">Genre: </label>
+    
+    <select name="Genre" id="genre" formControlName="genre" class="form-control">
+        <option value="Autobiography">Authobiography</option>
+        <option value="Educational">Educational</option>
+        <option value="Fantasy">Fantasy</option>
+        <option value="Horror">Horror</option>
+        <option value="Romance">Romance</option>
+        <option value="SelfHelp">Self-help</option>
+        <option value="NonFiction">Non-fiction</option>
+    </select>
+
+    <hr class="text-success">
+
+    <p>Selling information</p>
+    
+    <label for="price" class="form-label">Please Enter Your Price: </label>
+    <input type="number" formControlName="price" id="price" class="form-control" required>
+
+    <label for="available" class="form-label">Enter how many items are available: </label>
+    <input type="number" formControlName="available" id="available" class="form-control" required>
+
+    <button type="submit">Add</button>
+    
+
+</form>
+</div>
